@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade04</title>
+  </head>
+  <body>
+    <h1>Atividade Condicionais com JavaScript</h1>
+
+    <script>
+      /*
+            Domingo   =  0
+            Segunda   =  1
+            Terça     =  2
+            Quarta    =  3
+            Quinta    =  4
+            Sexta     =  5
+            Sábado    =  6
+        */
+
+      const diaDaSemana = 4;
+
+      // escolha caso = switch case
+
+      switch (diaDaSemana) {
+        case 0:
+          document.write("Domingo<br>");
+          break;
+
+        case 1:
+          document.write("Segunda-feira<br>");
+          break;
+
+        case 2:
+          document.write("Terça-feira<br>");
+          break;
+
+        case 3:
+          document.write("Quarta-feira<br>");
+          break;
+
+        case 4:
+          document.write("Quinta-feira<br>");
+          break;
+
+        case 5:
+          document.write("#Sextou<br>");
+          break;
+
+        case 6:
+          document.write("#Sabadou<br>");
+          break;
+
+        default:
+          document.write("Dia incorreto");
+      }
+
+      if (diaDaSemana >= 1 && diaDaSemana <= 5) {
+        document.write("Dia de estudos");
+      } else {
+        document.write("Dia de descanso.");
+      }
+    </script>
+  </body>
+</html>

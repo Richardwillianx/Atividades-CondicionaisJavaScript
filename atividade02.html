@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade01</title>
+  </head>
+  <body>
+    <h1>Atividade Condicionais com JavaScript</h1>
+
+    <script>
+      const idade = prompt("Informe sua idade: ");
+      const habilitado = prompt("Você é habilitado?(S/N) ").toUpperCase;
+
+      if (idade >= 18) {
+        if (habilitado === "S") {
+          console.log("Vai lá, você pode dirigir!");
+        } else if (habilitado === "N") {
+          console.log("Infelizmente você não pode dirigir..");
+        }
+      } else if (idade <= 18) {
+        console.error("Você ainda não tem idade para dirigir..");
+      }
+    </script>
+  </body>
+</html>

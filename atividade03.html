@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade03</title>
+  </head>
+  <body>
+    <h1>Atividade Condicionais com JavaScript</h1>
+
+    <script>
+      /*
+            Domingo   =  0
+            Segunda   =  1
+            Terça     =  2
+            Quarta    =  3
+            Quinta    =  4
+            Sexta     =  5
+            Sábado    =  6
+        */
+      const diaDaSemana = prompt("Digite um dia da seman(0 a 6): ");
+      if (diaDaSemana === 0) {
+        document.write("Domingo");
+      } else if (diaDaSemana === 1) {
+        document.write("Segunda-feira");
+      } else if (diaDaSemana === 2) {
+        document.write("Terça-feira");
+      } else if (diaDaSemana === 3) {
+        document.write("Quarta-feira");
+      } else if (diaDaSemana === 4) {
+        document.write("Quinta-feira");
+      } else if (diaDaSemana === 5) {
+        document.write("#Sextou");
+      } else if (diaDaSemana === 6) {
+        document.write("#Sabadou");
+      } else {
+        document.write("Digite um número de 0 a 6");
+      }
+    </script>
+  </body>
+</html>
